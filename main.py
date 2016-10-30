@@ -1,10 +1,10 @@
-import sys
 import introduce
 
 def main():
-    print("Hello World!")
+    print("Hello!")
     introduce.introduce()
-    print("Nice to meet you!")
+    name = introduce.ask_name()
+    print("Nice to meet you, {}!".format(name))
 
 if __name__ == "__main__":
     main()
