@@ -5,4 +5,4 @@ def main():
     print("Nice to meet you!")
 
 if __name__ == "__main__":
-    print("Hello World!")
+    main()
